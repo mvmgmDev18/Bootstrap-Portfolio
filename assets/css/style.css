@@ -5,9 +5,17 @@ body {
   color: #777;
   /* Background pattern from Toptal Subtle Patterns */
   background-image: url(../images/brickwall/brickwall.png);
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  margin: 0;
 }
 
 .navbar-brand {
+    /* padding-left: 380px; */
     width: 200px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
@@ -16,24 +24,13 @@ body {
     text-align: center;
     background: #4aaaa5;
 }
-/* .work {
-    position: relative;
-    float: left;
-    width: 274px;
-    margin: 20px 0 25px;
-    overflow: auto;
-  } */
   
-  /* .work:nth-child(even) {
-    margin-right: 40px;
-  } */
-  
-  /* .work img {
-    width: 100%;
-    border: 0 none;
-    opacity: 0.8;
-  } */
-  
+/* .navbarText{
+  padding-right: 1525px;
+} */
+
+
+
   .work h3 {
     /* position: absolute;
     bottom: 20px;
@@ -47,25 +44,7 @@ body {
     background: #4aaaa5;
     /* s */
   }
-  
-  /* .auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-  } */
-  /* footer {
-    padding: 30px 0;
-    clear: both;
-    font-size: 12px;
-    color: #fff;
-    color: #ccc;
-    text-align: center;
-    background: #666;
-    border-top: 8px solid #4aaaa5;
-    height: 50px;
-  } */
+
   /* contact page */
 
 #contact-form ul {
@@ -105,18 +84,27 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+.content {
+  min-height: 100%;
+}
+.content-inside {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
 /* footer */
 
 .footer {
-  margin: 420px 0 0 0;
-  padding: 30px 0;
-  /* clear: both; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   font-size: 12px;
-  color: #fff;
+  /* color: #fff; */
   color: #ccc;
   text-align: center;
+  line-height: 40px; 
   background: #666;
   border-top: 8px solid #4aaaa5;
   height: 50px;
+  margin-top: -50px;
 }
-
